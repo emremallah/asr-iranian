@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Header({ pdfUrl }) {
     return (
         <div className="flex justify-between w-full max-w-5xl items-center">
-            <Image src="/logo.jpg" alt="لوگو" width={180} height={60} />
+            <Image src="/logo.jpg" alt="لوگو" width={60} height={60} />
             <a
                 href={pdfUrl}
                 download

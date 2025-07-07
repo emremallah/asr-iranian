@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import editions from '@/data/editions.json';
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import EditionSelector from '@/components/EditionSelector';
 import NewspaperView from '@/components/NewspaperView';
 import Sidebar from '@/components/sidebar';
