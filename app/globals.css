@@ -20,12 +20,15 @@
 }
 
 @font-face {
-  font-family: 'IRANSans';
-  src: url('/fonts/IRANSansWeb.woff2') format('woff2');
+  font-family: 'IranSansX';
+  src: url('/fonts/IRANSansX-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-  font-family: 'IRANSans', sans-serif;
+  font-family: 'IranSansX', sans-serif;
   direction: ltr;
   background-color: #f9f9f9;
 }
