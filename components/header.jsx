@@ -21,7 +21,7 @@ export default function Header({ pdfUrl, editions, selectedId, onSelect }) {
                         selectedId={selectedId}
                         onSelect={onSelect}
                     />
-                    <button className="bg-black text-white text-sm px-5 py-3 rounded hover:bg-gray-900">
+                    <button className="bg-black text-white text-sm px-5 py-3 rounded-xs hover:bg-gray-900">
                         🔍 انتخاب تاریخ
                     </button>
                 </div>

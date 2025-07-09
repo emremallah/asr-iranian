@@ -32,7 +32,7 @@ export default function HomePage({ pdfUrl }) {
             </div>
 
             {/* 📱 موبایل */}
-            <div className="lg:hidden min-h-screen bg-[#f2f2f2]">
+            <div className="lg:hidden min-h-screen bg-[#f2f2f2] pb-16">
                 {/* 👇👇 اینجا طراحی موبایل خودتو انجام بده 👇👇 */}
                 <Header
                     pdfUrl={edition?.pdfUrl}
@@ -56,7 +56,7 @@ export default function HomePage({ pdfUrl }) {
                         </button>
                     </a>
                 </div>
-                <div className='w-full flex justify-center bg-white h-16 drop-shadow-xl drop-shadow-gray-600'>
+                <div className='w-full bottom-0 left-0 fixed flex justify-center bg-white h-16 drop-shadow-xl drop-shadow-gray-600'>
                     <button className="flex flex-col items-center text-xl w-1/3 h-full">
                         <span className="text-xl my-auto">یادداشت‌ها</span>
                     </button>
@@ -69,9 +69,6 @@ export default function HomePage({ pdfUrl }) {
                         <span className="text-xl my-auto">آرشیو</span>
                     </button>
                 </div>
-
-
-
             </div>
         </>
     );
